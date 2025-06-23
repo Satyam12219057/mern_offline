@@ -1058,8 +1058,11 @@ const data = {
   skip: 0,
   limit: 30,
 };
-// const parentElement=document.getElementsByTagName("main")
-// const { recipes }=data;
+ const parentElement=document.getElementsByTagName("main")
+ const { recipes }=data;
+ 
+
+
 const popUpView = document.getElementById("pop-up-view");
 const popUpContent = document.getElementById("pop-up-content");
 const handleCardClick = (obj) => {
