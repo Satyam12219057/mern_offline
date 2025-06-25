@@ -1,0 +1,17 @@
+
+0. install node
+1 npm init -y
+2 go to npm.js and install the required file
+->> npm i react
+>> npm i react-dom
+ 5 this create node_modules and package-lock.json for you
+ in package.json-> dependencies array is created
+
+ // we read bundlers  from bundelers.js
+ 7. we are going to use parsel(for today) since it is eassy to setup
+ and help to build and understand react app from scratch
+ 8--->> npm i parcel
+
+ 9 run the app;
+ >> npx parcel index.html
+

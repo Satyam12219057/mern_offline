@@ -1,0 +1,7 @@
+.env
+dist
+.parcel-cache
+node-modules
+package-lock.json
+
+
