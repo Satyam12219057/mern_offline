@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /*.styling{
+        background-color: blue;
+        color: red;
+        padding:20px;
+        padding-left: 200px;
+        padding-top: 50px;
+        padding-right: 50px;
+        margin: 10px 20px 30px 40px;*/
+       /* this all 4 done by a single margin
+       margin: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 500px;
+        margin-right: 50px;*/
+        /*border:0px solid yellow;  this is the sort hand of the width style and color*/
+        /*border-width: dashed;
+        border-style: dashed;
+        border-color: pink;*/
+
+
+    /*text decoration*/
+    </style>
+    <style>
+        .text {
+        text-decoration: line-through;
+        text-transform: uppercase;
+        text-align:center;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 50px;
+        line-height: 16px;
+        line-break: loose;
+        
+    }
+    .contaner{
+        display: flex;
+        flex-direction:row ;
+        /*justify-content: center;
+        justify-content: space-between ;
+        justify-content: space-around;
+        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;*/
+        gap: 100px 10px;
+
+
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        border: 1px solid blue;
+        text-align: center;
+        padding: 50px 50px 50px 10px;
+        margin: 10px 10px 10px 10px;
+    }
+
+
+    /*grip properties*/
+    .cont-grid{
+        display: grid;
+        
+        grid-template-columns:250px 250px 250px;
+       /* grid-template-rows: 100px 1000px 1000px;*/
+       /*grid-template-rows: auto auto auto;*/
+       grid-template-columns: repeat(3,1fr);
+       gap: 10px 20px;
+
+        border: 1px solid red;
+    }
+    .grid-item{
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+    }
+    .one{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    </style>
+</head>
+<body>
+    <!--css styling -->
+    <!-- <p class="styling">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, beatae!</p> -->
+      <!-- we are going to deal with the text decoration-->
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, id!</p> 
+      <!--flex box-->
+      <!-- <div class="contaner">
+        <div class="box">satyam1</div>
+        <div class="box">satyam2</div>
+        <div class="box">satyam3</div>
+        <div class="box">satyam4</div>
+      </div> -->
+
+
+      <!--Grid-->
+       <div class="cont-grid">
+        <div class="grid-item one">satyam1</div>
+        <div class="grid-item  two">satyam2</div>
+        <div class="grid-item">satyam3</div>
+        <div class="grid-item">satyam4</div>
+        <div class="grid-item">satyam5</div>
+        <div class="grid-item">satyam6</div>
+        <div class="grid-item">satyam7</div>
+        <div class="grid-item">satyam8</div>
+        <div class="grid-item">satyam9</div>
+      </div> 
+
+</body>
+</html>
