@@ -1,0 +1,8 @@
+
+To start withNodejd
+2->check for version
+>>node -v
+>> npm -v
+
+npm init -y
+4->> create javascript file

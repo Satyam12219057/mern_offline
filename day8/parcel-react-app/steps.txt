@@ -15,3 +15,5 @@
  9 run the app;
  >> npx parcel index.html
 
+//do  the next command and all deleted node module are come
+>>>  npm i

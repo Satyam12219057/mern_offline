@@ -1,0 +1,17 @@
+
+#navbar-contaner{
+    padding: 30px 30px 30px 30px;
+    text-align: center;
+    background-color: yellow;
+    display: flex;
+    gap:2rem;
+
+}
+.a{
+    font-size: 5 rem;
+    font-weight: 100;
+   font-style: italic;
+
+
+}
+
